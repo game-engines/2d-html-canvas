@@ -1,11 +1,43 @@
-# 2d-html-canvas documentation
+# Rocket documentation
 
 ## Description
 
 A reliable engine for faster, straight forward building of 2d games using the html canvas.
 Don't reinvet the wheel and Don't repeat yourself.
 This documentaion is an overview of the entire project,
-For more detailed documentation with examples visit.[2d-html-canvas game engine](http://www.codelordug.com/2d-html-canvas/docs).
+For more detailed documentation with examples visit.[Rocket game engine](http://www.codelordug.com/rocket/docs).
+
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Examples](#examples)
+- [Quick Start](#quick-start)
+- [GameEngine Properties](#gameengine-properties)
+- [GameEngine Methods](#gameengine-methods)
+- [FAQ](#faq)
+  - [Is React Native Game Engine suitable for production quality games?](#is-react-native-game-engine-suitable-for-production-quality-games)
+  - [Do you know of any apps that currently utilize this library?](#do-you-know-of-any-apps-that-currently-utilize-this-library)
+  - [How do I manage physics?](#how-do-i-manage-physics)
+  - [Do I have a choice of renderers?](#do-i-have-a-choice-of-renderers)
+  - [RNGE doesn't give me sensor data out of the box - what gives?](#rnge-doesnt-give-me-sensor-data-out-of-the-box---what-gives)
+  - [Is this compatible with Android and iOS?](#is-this-compatible-with-android-and-ios)
+  - [Won't this kind of be harsh on the battery?](#wont-this-kind-of-be-harsh-on-the-battery)
+- [Introduction](#introduction)
+- [The Game Loop](#the-game-loop)
+- [The Game Loop vs React Native](#the-game-loop-vs-react-native)
+- [Using the GameLoop Component](#using-the-gameloop-component)
+- [Behind the Scenes](#behind-the-scenes)
+- [Where is the Draw Function](#where-is-the-draw-function)
+- [Managing Complexity with Component Entity Systems](#managing-complexity-with-component-entity-systems)
+- [Additional CES Reading Material](#additional-ces-reading-material)
+- [Using the GameEngine Component](#using-the-gameengine-component)
+- [Awesome Packages for Game Development](#awesome-packages-for-game-development)
+- [Get in Touch](#get-in-touch)
+- [React & React Native](#react--react-native)
+- [Web Framework & Deployment Tools](#web-framework--deployment-tools)
+- [GraphQL](#graphql)
+- [Tools](#tools)
+- [License](#license)
 
 ## Adding to a Project
 
